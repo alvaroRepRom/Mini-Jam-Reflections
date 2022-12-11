@@ -55,9 +55,13 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1009868540, guid: eaa1bbb4a6dc4244ebff70a496d6ac5e, type: 3}
+    - target: {fileID: 3002333696745790029, guid: 478f2ecb710d2e04f8333acb773a0169, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5882353
+      objectReference: {fileID: 0}
     - target: {fileID: 3002333696745790031, guid: 478f2ecb710d2e04f8333acb773a0169, type: 3}
       propertyPath: m_Name
-      value: Block Blue
+      value: Block Blue Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 478f2ecb710d2e04f8333acb773a0169, type: 3}

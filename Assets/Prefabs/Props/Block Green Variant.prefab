@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: -1071155273, guid: eaa1bbb4a6dc4244ebff70a496d6ac5e, type: 3}
     - target: {fileID: 5953098650753544674, guid: aa4817d63ccf66640a8780f6dc8a7e7c, type: 3}
       propertyPath: m_Name
-      value: Block Green
+      value: Block Green Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5953098650753544679, guid: aa4817d63ccf66640a8780f6dc8a7e7c, type: 3}
       propertyPath: m_RootOrder

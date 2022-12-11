@@ -9,12 +9,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 583268325405272416, guid: e622f196e99599049b7ed117fefbe41f, type: 3}
       propertyPath: m_Name
-      value: Block Red
+      value: Block Red Variant
       objectReference: {fileID: 0}
     - target: {fileID: 583268325405272418, guid: e622f196e99599049b7ed117fefbe41f, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -132895021, guid: eaa1bbb4a6dc4244ebff70a496d6ac5e, type: 3}
+    - target: {fileID: 583268325405272418, guid: e622f196e99599049b7ed117fefbe41f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5882353
+      objectReference: {fileID: 0}
     - target: {fileID: 583268325405272421, guid: e622f196e99599049b7ed117fefbe41f, type: 3}
       propertyPath: m_RootOrder
       value: 0
