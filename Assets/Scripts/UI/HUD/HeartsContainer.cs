@@ -9,8 +9,8 @@ public class HeartsContainer : MonoBehaviour
 
     public UnityEvent OnDeath;
 
-    private void OnDisable() => EventManager.OnDropCollected -= AumentHeart;
-    private void Awake() => EventManager.OnDropCollected += AumentHeart;
+    private void OnDisable() => EventManager.OnHeartCollected -= AumentHeart;
+    private void Awake() => EventManager.OnHeartCollected += AumentHeart;
     private void Start() => numOfFullHearts = hearts.Count;
 
     private void AumentHeart()
