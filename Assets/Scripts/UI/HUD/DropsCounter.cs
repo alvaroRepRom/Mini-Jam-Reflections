@@ -8,6 +8,9 @@ public class DropsCounter : MonoBehaviour
     private TextMeshProUGUI dropsCountText;
     private int count = 0;
 
+    public int MaxDrops => maxDrops;
+    public int numOfDrops => count;
+
     private void OnDisable() => EventManager.OnDropCollected -= UpdateDropsCount;
     private void Awake()
     {

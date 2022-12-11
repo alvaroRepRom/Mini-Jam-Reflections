@@ -16,4 +16,5 @@ public class Health : MonoBehaviour
 
     private void AumentHealth() => OnAumentHealth?.Invoke();
     private void LoseHealth() => OnLoseHealth?.Invoke();
+    public void DestroyPlayer() => Destroy(gameObject);
 }

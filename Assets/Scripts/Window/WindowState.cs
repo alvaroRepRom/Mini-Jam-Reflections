@@ -10,6 +10,7 @@ public class WindowState : MonoBehaviour
 
     private bool isClosed;
 
+    private void Start() => windowSprite.color = openedColor;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.L))
